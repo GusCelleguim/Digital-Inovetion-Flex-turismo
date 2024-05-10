@@ -1,0 +1,127 @@
+<!DOCTYPE html> <!-- Declara que o documento é HTML5 -->
+<html lang="pt-br"> <!-- Define o idioma do documento como português do Brasil -->
+<head>
+    <meta charset="UTF-8"> <!-- Define a codificação de caracteres como UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Torna o layout responsivo -->
+    <title>Flex Turismos</title> <!-- Título da aba do navegador -->
+    <link rel="stylesheet" href="./assents/css/style.css"> <!-- Link para o arquivo CSS externo -->
+</head>
+<body>
+    <header>
+        <div class="flex-container menu">
+            <div><h1>FlexTurismos</h1></div> <!-- Título principal do site -->
+            <ul class="list-items">
+                <li><a href="#quem-somos">Quem somos</a></li> <!-- Link de navegação -->
+                <li><a href="#servicos">Serviços</a></li> <!-- Link de navegação -->
+                <li><a href="#planos">Planos</a></li> <!-- Link de navegação -->
+            </ul>
+        </div>
+    </header>
+
+    <!-- Seção de apresentação da empresa -->
+    <div class="flex-container apresentação">
+        <div class="texto-apresentação">
+            <h1>Flex <br>Turismos</h1>
+            <p>O melhor serviço para você!</p> <!-- Texto de chamada -->
+            <a href="" class="btn">Saiba Mais!</a> <!-- Botão de ação -->
+        </div>
+        <div>
+            <div><img src="./images/0-main.png" alt="banner de apresentação"></div>
+        </div>
+    </div>
+
+    <!-- Seção 'Quem Somos' com descrição da empresa -->
+    <div class="flex-container apresentação" id="quem-somos">
+        <div>
+            <h2>Quem somos</h2> <!-- Título da seção -->
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, corrupti!</p> <!-- Texto placeholder -->
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos, officia magnam numquam optio expedita possimus aliquid facere. Enim, tenetur laboriosam animi temporibus blanditiis aliquid sint cum quibusdam reiciendis alias eaque!</p> <!-- Texto placeholder -->
+        </div>
+        <div>
+            <div><img src="./images/1-quem-somos.png" alt="balcão de atendimento"></div>
+        </div>
+    </div>
+
+    <!-- Seção de serviços oferecidos pela empresa -->
+    <div class="container-externo">
+        <div class="flex-container" id="serviços">
+            <div>
+                <h2>Serviços</h2> <!-- Título da seção -->
+            </div>
+
+            <div class="lista-serviços">
+                <div class="item-serviço">
+                    <div><img src="./images/icon-2.png" alt="hospedagens"></div>
+                    <p>Hospedagens</p> <!-- Descrição do serviço -->
+                    <a href="#">Comprar Agora</a> <!-- Botão de ação -->
+                </div>
+
+                <div class="item-serviço">
+                    <div><img src="./images/icon-1.png" alt="pacote de viagens"></div>
+                    <p>Pacotes de viagens</p> <!-- Descrição do serviço -->
+                    <a href="#">Comprar Agora</a> <!-- Botão de ação -->
+                </div>
+
+                <div class="item-serviço">
+                    <div><img src="./images/icon-3.png" alt="roteiros personalizados"></div>
+                    <p>Roteiros personalizados</p> <!-- Descrição do serviço -->
+                    <a href="#">Comprar Agora</a> <!-- Botão de ação -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Seção de planos disponíveis -->
+    <div class="flex-container" id="planos">
+        <div><h2>Planos</h2></div> <!-- Título da seção -->
+
+        <div class="list-planos">
+            <div class="item-plano">
+                <h3>Plano 1</h3> <!-- Nome do plano -->
+                <hr> <!-- Linha horizontal para design -->
+                <ul>
+                    <li>Suporte 24h</li> <!-- Benefício do plano -->
+                    <li>Serviços de quarto</li> <!-- Benefício do plano -->
+                    <li>Guia turístico</li> <!-- Benefício do plano -->
+                </ul>
+                <a href="#" class="btn">Saiba Mais!</a> <!-- Botão de ação -->
+            </div>
+
+            <div class="item-plano">
+                <h3>Plano 2</h3> <!-- Nome do plano -->
+                <hr> <!-- Linha horizontal para design -->
+                <ul>
+                    <li>Suporte 24h</li> <!-- Benefício do plano -->
+                    <li>Serviços de quarto</li> <!-- Benefício do plano -->
+                    <li>Guia turístico</li> <!-- Benefício do plano -->
+                    <li>Roteiro de trilhas</li> <!-- Benefício do plano -->
+                    <li>Serviço personalizado</li> <!-- Benefício do plano -->
+                </ul>
+                <a href="#" class="btn">Saiba Mais!</a> <!-- Botão de ação -->
+            </div>
+
+            <div class="item-plano">
+                <h3>Plano 3</h3> <!-- Nome do plano -->
+                <hr> <!-- Linha horizontal para design -->
+                <ul>
+                    <li>Suporte 24h</li> <!-- Benefício do plano -->
+                    <li>Serviços de quarto</li> <!-- Benefício do plano -->
+                    <li>Guia turístico</li> <!-- Benefício do plano -->
+                    <li>Roteiro de trilhas</li> <!-- Benefício do plano -->
+                    <li>Serviço personalizado</li> <!-- Benefício do plano -->
+                    <li>Área Vip</li> <!-- Benefício do plano -->
+                </ul>
+                <a href="#" class="btn">Saiba Mais!</a> <!-- Botão de ação -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Rodapé com informações de direitos autorais -->
+    <footer>
+        <div class="flex-container">
+            <p>&copy; 2021 CSS <!-- Texto de copyright -->
+            <p>Desenvolvido por: Bryan Patucci</p> <!-- Crédito ao desenvolvedor -->
+        </div>
+    </footer>
+</body>
+</html>
